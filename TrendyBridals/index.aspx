@@ -1,7 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TrendyMasterPage.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="TrendyBridals.index" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/NestedMasterPage1.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="TrendyBridals.index" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <div class="well np">
 		<div id="myCarousel" class="carousel slide homCar">
             <div class="carousel-inner">

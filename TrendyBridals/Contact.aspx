@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TrendyMasterPage2.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="TrendyBridals.Contact" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TrendyMasterPage.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="TrendyBridals.Contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -62,5 +62,5 @@ Body Section
 
 	
 </div>
-<!-- 
+
 </asp:Content>

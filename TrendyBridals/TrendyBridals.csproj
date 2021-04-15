@@ -161,6 +161,13 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="NestedMasterPage1.master.cs">
+      <DependentUpon>NestedMasterPage1.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NestedMasterPage1.master.designer.cs">
+      <DependentUpon>NestedMasterPage1.master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="register.aspx.cs">
       <DependentUpon>register.aspx</DependentUpon>
@@ -175,13 +182,6 @@
     </Compile>
     <Compile Include="TrendyMasterPage.Master.designer.cs">
       <DependentUpon>TrendyMasterPage.Master</DependentUpon>
-    </Compile>
-    <Compile Include="TrendyMasterPage2.Master.cs">
-      <DependentUpon>TrendyMasterPage2.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TrendyMasterPage2.Master.designer.cs">
-      <DependentUpon>TrendyMasterPage2.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -207,9 +207,9 @@
     <Content Include="assets\font-awesome\scss\_mixins.scss" />
     <Content Include="assets\font-awesome\scss\_path.scss" />
     <Content Include="assets\font-awesome\scss\_variables.scss" />
+    <Content Include="NestedMasterPage1.master" />
     <None Include="packages.config" />
     <Content Include="TrendyMasterPage.Master" />
-    <Content Include="TrendyMasterPage2.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

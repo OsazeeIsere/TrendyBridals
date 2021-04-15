@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="span9">
+    <div class="span12">
     <ul class="breadcrumb">
 		<li><a href="index.aspx">Home</a> <span class="divider">/</span></li>
 		<li class="active">Registration</li>
