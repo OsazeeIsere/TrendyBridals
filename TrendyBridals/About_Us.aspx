@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TrendyMasterPage2.Master" AutoEventWireup="true" CodeBehind="About_Us.aspx.cs" Inherits="TrendyBridals.About_Us" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TrendyMasterPage.Master" AutoEventWireup="true" CodeBehind="About_Us.aspx.cs" Inherits="TrendyBridals.About_Us" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
